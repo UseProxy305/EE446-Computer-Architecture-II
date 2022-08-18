@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\OKUL\ee_4_2\EE446\LabWorks\Lab1\Decoder\simulation\modelsim
+vdecoder
+INUBld[>LG?]Ia29SmSn=U2
+VZde8OA86KNAek=j]DeAIB1
+Z1 dD:\OKUL\ee_4_2\EE446\LabWorks\Lab1\Decoder\simulation\modelsim
+w1648376268
+8D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decoder.v
+FD:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decoder.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 NV<hjEG[42njniiRZFQSH3
+!s85 0
+!s108 1648395747.317000
+!s107 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder|D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decoder.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder -O0
+vdecodertb
+!i10b 1
+!s100 Ugz5Jjk?m>]R_II^mP<Bo3
+I>^^7jbVZ7nCS_KVWO87^;0
+VPJ_TPRZ8=OfKF<W<[XnBL3
+R1
+w1648395553
+8D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decodertb.v
+FD:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decodertb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1648395752.975000
+!s107 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decodertb.v|
+!s90 -reportprogress|300|-work|work|D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/Decoder/decodertb.v|
+!s101 -O0
+o-work work -O0
