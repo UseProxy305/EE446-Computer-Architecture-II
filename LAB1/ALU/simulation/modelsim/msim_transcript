@@ -1,0 +1,178 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ALU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU {D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# 
+vlog -reportprogress 300 -work work D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+vsim work.ALUtb
+# vsim work.ALUtb 
+# Loading work.ALUtb
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALUtb/W \
+sim:/ALUtb/clktb \
+sim:/ALUtb/Atb \
+sim:/ALUtb/Btb \
+sim:/ALUtb/ALUcntrltb \
+sim:/ALUtb/Oexp \
+sim:/ALUtb/COexp \
+sim:/ALUtb/OVFexp \
+sim:/ALUtb/Nexp \
+sim:/ALUtb/Zexp \
+sim:/ALUtb/vectornum \
+sim:/ALUtb/errors \
+sim:/ALUtb/testvectors \
+sim:/ALUtb/Otb \
+sim:/ALUtb/COtb \
+sim:/ALUtb/OVFtb \
+sim:/ALUtb/Ntb \
+sim:/ALUtb/Ztb
+run
+# Error: input = 0111 0111
+# N outputs = 1 (0 expected)
+# Error: input = 0111 0111
+# Z outputs = 0 (1 expected)
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+vsim work.ALUtb
+# vsim work.ALUtb 
+# Loading work.ALUtb
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALUtb/W \
+sim:/ALUtb/clktb \
+sim:/ALUtb/Atb \
+sim:/ALUtb/Btb \
+sim:/ALUtb/ALUcntrltb \
+sim:/ALUtb/Oexp \
+sim:/ALUtb/COexp \
+sim:/ALUtb/OVFexp \
+sim:/ALUtb/Nexp \
+sim:/ALUtb/Zexp \
+sim:/ALUtb/vectornum \
+sim:/ALUtb/errors \
+sim:/ALUtb/testvectors \
+sim:/ALUtb/Otb \
+sim:/ALUtb/COtb \
+sim:/ALUtb/OVFtb \
+sim:/ALUtb/Ntb \
+sim:/ALUtb/Ztb
+run
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+vsim work.ALUtb
+# vsim work.ALUtb 
+# Loading work.ALUtb
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALUtb/W \
+sim:/ALUtb/clktb \
+sim:/ALUtb/Atb \
+sim:/ALUtb/Btb \
+sim:/ALUtb/ALUcntrltb \
+sim:/ALUtb/Oexp \
+sim:/ALUtb/COexp \
+sim:/ALUtb/OVFexp \
+sim:/ALUtb/Nexp \
+sim:/ALUtb/Zexp \
+sim:/ALUtb/vectornum \
+sim:/ALUtb/errors \
+sim:/ALUtb/testvectors \
+sim:/ALUtb/Otb \
+sim:/ALUtb/COtb \
+sim:/ALUtb/OVFtb \
+sim:/ALUtb/Ntb \
+sim:/ALUtb/Ztb
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 4 of file "ALUtb.tv". (Current address [3], address range [0:2])    : D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v(33)
+#    Time: 0 ps  Iteration: 0  Instance: /ALUtb
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+restart
+# Loading work.ALUtb
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 5 of file "ALUtb.tv". (Current address [4], address range [0:3])    : D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v(33)
+#    Time: 0 ps  Iteration: 0  Instance: /ALUtb
+# Error: input = 0111 0111
+# Z outputs = 1 (0 expected)
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+vsim work.ALUtb
+# vsim work.ALUtb 
+# Loading work.ALUtb
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALUtb/W \
+sim:/ALUtb/clktb \
+sim:/ALUtb/Atb \
+sim:/ALUtb/Btb \
+sim:/ALUtb/ALUcntrltb \
+sim:/ALUtb/Oexp \
+sim:/ALUtb/COexp \
+sim:/ALUtb/OVFexp \
+sim:/ALUtb/Nexp \
+sim:/ALUtb/Zexp \
+sim:/ALUtb/vectornum \
+sim:/ALUtb/errors \
+sim:/ALUtb/testvectors \
+sim:/ALUtb/Otb \
+sim:/ALUtb/COtb \
+sim:/ALUtb/OVFtb \
+sim:/ALUtb/Ntb \
+sim:/ALUtb/Ztb
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 5 of file "ALUtb.tv". (Current address [4], address range [0:3])    : D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v(33)
+#    Time: 0 ps  Iteration: 0  Instance: /ALUtb
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+restart
+# Loading work.ALUtb
+run
+vlog -work work -O0 D:/OKUL/ee_4_2/EE446/LabWorks/Lab1/ALU/ALUtb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUtb
+# 
+# Top level modules:
+# 	ALUtb
+restart
+# Loading work.ALUtb
+run

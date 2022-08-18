@@ -1,0 +1,23 @@
+module ALUtb#(parameter W=5);
+reg [W-1:0] A;
+reg [W-1:0] B;
+reg [2:0] ALUcntrl;
+wire [W-1:0] O;
+wire CO;
+wire OVF;
+wire N;
+wire Z;
+
+ALU dut(.A(A),.B(B),.ALUcntrl(ALUcntrl),
+			.O(O),.CO(CO),.OVF(OVF),.N(N),.Z(Z));
+
+			
+initial begin
+	A=5'b00010;
+	B=5'b00010;
+	ALUcntrl = 3'b000;
+	#3;
+	ALUcntrl = 3'b001;
+	#2;
+end
+endmodule
